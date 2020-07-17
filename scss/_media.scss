@@ -1,0 +1,42 @@
+@media (max-width: 991px){
+    .modal{
+        &__body{
+           padding-top: 55px!important; 
+        }
+        &__wrapper{
+            &_left{
+                display: none;
+            }
+            &_right{
+                margin-left: 0!important;
+                &_title{
+                    margin-top: 20px!important;
+                    text-align: center;
+                }
+                &_descr{
+                    text-align: center;
+                }
+                &_btn{
+                    width: 100%!important;
+                    &_rep{
+                        width: 100%!important;
+                        margin-top: 10px;
+                        margin-left: 0!important;
+                    }
+                    &_dec{
+                        width: 100%!important;
+                    }
+                    &_con{
+                        width: 100%!important;
+                        margin-top: 10px;
+                    }
+                }
+            }
+        }
+    }
+    .wrapper{
+        &_btn{
+            display: block!important;
+        }
+    }
+}

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/style.min.css">
+   <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+   <title>Document</title>
+</head>
+<body>
+   
+
+
+
+<a href="#" class="link js-open-modal" data-modal="pop1">Bad registration</a>
+<a href="#" class="link js-open-modal"data-modal="pop2">Error autorization</a>
+<a href="#" class="link js-open-modal" data-modal="pop3">Confirm delete</a>
+<a href="#" class="link js-open-modal"data-modal="pop4">Confirm bet</a>
+
+
+<div class="modal js-modal" data-modal="pop1">
+   <div class="modal__cross js-modal-close close_scale"><img src="icons/Cross (Error).svg" alt="icon"></div>   
+   <div class="modal__header"></div>
+   <div class="modal__body">
+      <img class="logo" src="icons/logo.png" alt="logo">
+      <div class="modal__wrapper">
+         <div class="modal__wrapper_left">
+            <img src="icons/attention_2.svg" alt="icon">
+         </div>
+         <div class="modal__wrapper_right">
+            <div class="modal__wrapper_right_title">Сообщение об не удачной регистрации</div>
+            <div class="modal__wrapper_right_descr">Почта занята или пароль не верный.
+               Вернитесь на страницу регистрации и введите логин и пароль снова. Или зарегистрируйтесь на нашей платформе.</div>
+            <button class="modal__wrapper_right_btn">Зарегистрироваться</button>
+         </div>
+      </div>
+   </div>
+</div>
+<div class="modal js-modal" data-modal="pop2">
+   <div class="modal__cross js-modal-close close_scale"><img src="icons/Cross (Error).svg" alt="icon"></div>   
+   <div class="modal__header"></div>
+   <div class="modal__body">
+      <img class="logo" src="icons/logo.png" alt="logo">
+      <div class="modal__wrapper">
+         <div class="modal__wrapper_left">
+            <img src="icons/attention_1.svg" alt="icon">
+         </div>
+         <div class="modal__wrapper_right">
+            <div class="modal__wrapper_right_title">Ошибка авторизации</div>
+            <div class="modal__wrapper_right_descr">Такой логин не найден или вы ввели неправильный пароль.
+               Попробуйте снова.</div>
+            <button class="modal__wrapper_right_btn">Зарегистрироваться</button>
+            <button class="modal__wrapper_right_btn_rep">Повторить </button>
+         </div>
+      </div>
+   </div>
+</div>
+<div class="modal js-modal" data-modal="pop3">
+   <div class="modal__cross js-modal-close close_scale"><img src="icons/Cross (Error).svg" alt="icon"></div>   
+   <div class="modal__header"></div>
+   <div class="modal__body">
+      <img class="logo" src="icons/logo.png" alt="logo">
+      <div class="modal__wrapper">
+         <div class="modal__wrapper_left">
+            <img src="icons/attention_3.svg" alt="icon">
+         </div>
+         <div class="modal__wrapper_right">
+            <div class="modal__wrapper_right_title">Подтверждениe удаления ордера</div>
+              <div class="wrapper_key_value wrapper_key_value_tp">
+                 <div class="wrapper_key">Pair:</div>
+                 <div class="wrapper_value">BTC / USD</div>
+              </div>
+              <div class="wrapper_key_value">
+                  <div class="wrapper_key">Price:</div>
+                  <div class="wrapper_value">0,000.00000000 <span class="wrapper_usd">USD</span></div>
+               </div>
+               <div class="wrapper_key_value">
+                  <div class="wrapper_key">Amount:</div>
+                  <div class="wrapper_value">0,000.00000000 <span class="wrapper_usd">BTC</span></div>
+               </div>
+               <div class="wrapper_key_value wrapper_key_value_mt">
+                  <div class="wrapper_key">Fee:</div>
+                  <div class="wrapper_key">0,000.00000000 <span class="wrapper_btc">BTC</span></div>
+               </div>
+               <div class="wrapper_key_value">
+                  <div class="wrapper_total">Total:</div>
+                  <div class="wrapper_value">BTC / USD</div>
+               </div>
+            <div class="wrapper_btn">
+               <button class="modal__wrapper_right_btn_dec">Отменить</button>
+               <button class="modal__wrapper_right_btn_con">Повторить</button>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+<div class="modal js-modal" data-modal="pop4">
+   <div class="modal__cross js-modal-close close_scale"><img src="icons/Cross (Error).svg" alt="icon"></div>   
+   <div class="modal__header"></div>
+   <div class="modal__body">
+      <img class="logo" src="icons/logo.png" alt="logo">
+      <div class="modal__wrapper">
+         <div class="modal__wrapper_left">
+            <img src="icons/attention_4.svg" alt="icon">
+         </div>
+         <div class="modal__wrapper_right">
+            <div class="modal__wrapper_right_title">Подтверждения ставки ордера</div>
+              <div class="wrapper_key_value wrapper_key_value_tp">
+                 <div class="wrapper_key">Pair:</div>
+                 <div class="wrapper_value">BTC / USD</div>
+              </div>
+              <div class="wrapper_key_value">
+                  <div class="wrapper_key">Price:</div>
+                  <div class="wrapper_value">0,000.00000000 <span class="wrapper_usd">USD</span></div>
+               </div>
+               <div class="wrapper_key_value">
+                  <div class="wrapper_key">Amount:</div>
+                  <div class="wrapper_value">0,000.00000000 <span class="wrapper_usd">BTC</span></div>
+               </div>
+               <div class="wrapper_key_value wrapper_key_value_mt">
+                  <div class="wrapper_key">Fee:</div>
+                  <div class="wrapper_key">0,000.00000000 <span class="wrapper_btc">BTC</span></div>
+               </div>
+               <div class="wrapper_key_value">
+                  <div class="wrapper_total">Total:</div>
+                  <div class="wrapper_value">BTC / USD</div>
+               </div>
+            <div class="wrapper_btn">
+               <button class="modal__wrapper_right_btn_dec">Отменить</button>
+               <button class="modal__wrapper_right_btn_con">Повторить</button>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+
+
+
+
+
+<div class="overlay js-modal-overlay"></div>
+
+
+<script
+  src="https://code.jquery.com/jquery-1.12.4.min.js"
+  integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+  crossorigin="anonymous"></script>
+<!-- <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script> Перед залитием на проект переключить на локал или посовектоваться с Максом -->
+<script src="js/app.js"></script>
+</body>
+</html>
